@@ -1,0 +1,11 @@
+id = "zed-reef-extension"
+name = "Zed Reef Extension"
+version = "0.0.1"
+schema_version = 1
+authors = ["Malachi Mackie <malachi@mackie.co.nz>"]
+description = "Zed Language extension for Reef programming language"
+repository = "https://github.com/MalachiMackie/zed-reef-extension"
+
+[grammars.reef]
+repository = "https://github.com/MalachiMackie/tree-sitter-reef"
+rev = "7434f476166548ec1f242cdc857137d907905e29"

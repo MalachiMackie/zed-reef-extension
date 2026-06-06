@@ -1,0 +1,4 @@
+name = "Reef"
+grammar = "reef"
+path_suffixes = ["rf"]
+line_comments = ["//"]
