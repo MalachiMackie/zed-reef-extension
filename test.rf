@@ -377,6 +377,10 @@ while (true) {
     continue;
     break;
 }
+for (var a = 0; i < 10; i++)
+{
+}
+
 while (true) {
     if (true) {
         continue;
@@ -422,7 +426,7 @@ union MyUnion{A(string)}
 var a = MyUnion::A;
 var b = a("");
 var a = if (true) {} else {};
-var a = if (true) {} else if (true) {} else {}; 
+var a = if (true) {} else if (true) {} else {};
 fn OtherFn(): result::<i64, i64>
 {
     return ok(1);
