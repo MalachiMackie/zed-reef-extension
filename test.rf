@@ -2665,3 +2665,8 @@ var a: unboxed MyClass = todo!;
 var b: MyClass = a;
 class MyClass {}
 unboxed MyClass;
+
+var x: [option::<string>]
+var x: variantOf option
+var x: (option::<string>)
+var x: Fn(string, option::<string>)

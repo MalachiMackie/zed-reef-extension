@@ -8,4 +8,4 @@ repository = "https://github.com/MalachiMackie/zed-reef-extension"
 
 [grammars.reef]
 repository = "https://github.com/MalachiMackie/tree-sitter-reef"
-rev = "26d301ab18398379a8468f252a0c47ab22750614"
+rev = "865d66dc12ccd4a8fed29426f639b80ab53cb852"

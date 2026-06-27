@@ -50,6 +50,7 @@
 ; @keyword	Captures keywords
 [
     "attribute"
+    "variantOf"
     (todo)
     "use"
     "extern"
@@ -172,9 +173,9 @@
 
 (named_type_identifier
     name: (identifier) @type)
-(array_type_identifier) @type
-(tuple_type_identifier) @type
-(fn_type_identifier) @type
+; (array_type_identifier) @type
+; (tuple_type_identifier) @type
+; (fn_type_identifier) @type
 (type_parameter_list (identifier) @type)
 
 (use_segment
